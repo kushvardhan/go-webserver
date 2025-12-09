@@ -1,0 +1,11 @@
+server
+│
+├── GET /
+│     └── serves → index.html
+│
+├── GET /hello
+│     └── calls → hello()
+│
+└── GET /form
+      └── calls → form()
+            └── serves → form.html
