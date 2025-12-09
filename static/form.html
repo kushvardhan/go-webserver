@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page</title>
+</head>
+<body style="font-family: Arial; background-color: #0f0f0f; margin: 0; padding: 0; color: white;">
+
+    <div style="max-width: 400px; margin: 80px auto; padding: 30px;
+        background: #1a1a1a; border-radius: 10px; 
+        box-shadow: 0px 4px 20px rgba(0,0,0,0.4);">
+
+        <h2 style="text-align: center; margin-bottom: 25px; color: #fff;">
+            Submit Your Details
+        </h2>
+
+        <form method="POST" action="/form">
+
+            <input type="text" name="name" placeholder="Enter Your Name"
+                style="width: 100%; padding: 12px; margin-bottom: 15px; 
+                border: 1px solid #333; border-radius: 6px; 
+                background:#111; color:white;">
+
+            <input type="email" name="email" placeholder="Enter your Email"
+                style="width: 100%; padding: 12px; margin-bottom: 15px; 
+                border: 1px solid #333; border-radius: 6px;
+                background:#111; color:white;">
+
+            <input type="number" name="Age" placeholder="Enter your age"
+                style="width: 100%; padding: 12px; margin-bottom: 20px; 
+                border: 1px solid #333; border-radius: 6px;
+                background:#111; color:white;">
+
+            <button type="submit"
+                style="width: 100%; padding: 12px; background: #4CAF50; color: white;
+                border: none; border-radius: 6px; font-size: 16px; cursor: pointer;">
+                Submit
+            </button>
+        </form>
+
+    </div>
+
+</body>
+</html>
